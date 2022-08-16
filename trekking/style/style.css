@@ -1,0 +1,246 @@
+.principal {
+    color:rgb(11, 163, 79);
+    text-align: center;    
+}
+
+h2 {
+    color: rgb(58, 143, 42);   
+}
+
+h3 {
+    color: rgb(165, 10, 10);
+    text-decoration-line: underline ;
+}
+
+h4{
+    color: rgb(126, 15, 15);
+}
+
+article h4 {
+    color:rgb(160, 20, 20)
+    
+}
+
+p {
+     font-family: 'Berkshire Swash', cursive;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:square;
+}
+
+h1 {
+
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 280px;
+
+ 
+    border: 2px solid rgb(1, 48, 1);
+
+    color: rgb(0, 44, 0);
+
+
+}
+
+section h4 {
+    color: rgb(31, 122, 31);
+}
+
+.nuevo__titulo {
+    font-size: 1.5rem;
+}
+
+
+ul nav span {
+    display: inline-block;
+}
+
+
+.instagram {
+    width: 600px;
+    height: 20px;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 90px;
+    padding: 10px;
+}
+
+.facebook {
+    width: 600px;
+    height: 20px;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 90px;
+    padding: 10px;
+}
+
+.twitter {
+    width: 600px;
+    height: 20px;
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 90px;
+    padding: 10px; 
+}
+
+.youtube {
+    width: 600px;
+    height: 20px;
+    background-image: url(../img/youtube.png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 90px;
+    padding: 10px;    
+}
+
+.panoramica {
+    width: 100vw;
+    height: 20vw;
+    background-image: url(../img/elchalten.jpg);
+    background-repeat: no-repeat;
+    background-size: 99vw;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-delay: 1s;
+}
+
+.panoramica:hover {
+    background-image: url(../img/bariloche.jpg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    background-size: 99vw;
+
+}
+
+.icono {
+    width: 140px;
+    height: 40px;
+    background-image: url(../img/icono.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: top right;
+}
+
+.color-derecha {
+    color: rgb(22, 22, 22);
+    background-color: rgba(66, 134, 38, 0.788);
+    width: 82px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.datos{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.video-chile {
+    color: rgb(245, 40, 3);
+}
+
+.video-everest {
+    color: rgb(245, 40, 3);
+}
+
+.video-milford {
+    color: rgb(245, 40, 3);
+}
+
+.video-salkantay {
+    color: rgb(245, 40, 3);
+}
+
+
+.caja {
+    width: 30vw;
+    height: 35vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px darkgreen groove ;
+    overflow: auto;
+}
+
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    display:flex ;
+    flex-wrap: wrap;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+}
+
+@media (min-width: 1200px) {
+    .panoramica {
+        width: 100vw;
+        height: 20vw;
+        background-image: url(../img/bariloche.jpg);
+        background-repeat: no-repeat;
+        background-size: 99vw;
+    }
+
+    p {
+        font-family: "Dancing Script", cursive;
+        font-family: "Pacifico", cursive;
+        font-family: "Satisfy", cursive;
+    }
+}
+
+
+.mover{
+    background-image:url(../img/move1.jpg);
+    width: 8vw;
+    height: 10vh;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    animation-name: movimiento-mover;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-timing-function:ease-in-out;
+}
+
+@keyframes movimiento-mover {
+    0% {
+    transform:translate(0px, 0px);
+    }
+
+    25% {
+    transform: translate(100px, 100px);
+    }
+
+    50% {
+    transform: translate(200px, 50px); 
+    background-image: url(../img/move2.png);
+    width: 8vw;
+    height: 10vh;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    }
+
+
+    100% {
+    transform: translate(300px, 0px);
+    background-image: url(../img/move3.jpg);
+    width: 8vw;
+    height: 10vh;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    }
+
+}
